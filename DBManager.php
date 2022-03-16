@@ -21,7 +21,7 @@ class DBManager {
 				$dbName = rtrim(ltrim($v));
 			}
 		}
-			$this->client = pg_connect("host=$ip port=$port dbname=$dbName user=$user password=$password") 
+			$this->client = pg_connect("host=ec2-34-206-148-196.compute-1.amazonaws.com port=5432 dbname=d9cr5h5ieniqqb user=juvomfaqzzjnjw password=4406af6a3ed6c65a7b4f95b0528d9bc7995a5e7d39f0d6274ddaafd801816156") 
 			or die('Could not connect: ' . pg_last_error());
 			
     }
